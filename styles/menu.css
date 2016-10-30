@@ -36,7 +36,7 @@ body {
 
 @font-face {
   font-family: Quinta;
-  src: url("BW Quinta/Fonts/bwquintapro-light.otf");
+  src: url("../BW Quinta/Fonts/bwquintapro-light.otf");
 }
 .BwQuintaL {
   font-family: Quinta;
