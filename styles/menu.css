@@ -3,13 +3,9 @@ body {
   margin-right: 0px;
 }
 
-#MenuDiv {
-  background-color: #1E90FF;
-}
-
 #Menu {
-  margin: auto;
   width: 500px;
+  float: left;
 }
 
 #Menu ul {
@@ -43,11 +39,20 @@ body {
 }
 
 #MenuDiv {
+  background-color: #1E90FF;
   width: 100%;
-  height 0;
+  height: 50px;
 }
 
 #MenuInDiv {
   width: 70%;
-  margin:  auto;
+  height: 50px;
+  margin: auto;
+}
+
+#LogoText {
+  width: 15%;
+  margin: 30%;
+  margin-right: 0px; margin-left: 0px;
+  float: left;
 }
