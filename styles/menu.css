@@ -54,7 +54,7 @@ body {
   background-color: #1E90FF;*/
   width: 100%;
   height: 2.9vw;
-  margin-top: 75px;
+  margin-top: 5.208vw;
 }
 
 #MenuInDiv {
@@ -82,11 +82,12 @@ body {
   margin: 0px;
   vertical-align: middle;
   font-size: 3vw;
-  margin-top: -2px;
-  margin-left: 3px;
+  margin-top: -0.1389vw;
+  margin-left: 0.2083vw;
   font-style: italic;
   color: blue;
   /* Stretch vertically */
+    display:inline-block;
     -webkit-transform:scale(1,var(--logo-scale)); /* Safari and Chrome */
     -moz-transform:scale(1,var(--logo-scale)); /* Firefox */
     -ms-transform:scale(1,var(--logo-scale)); /* IE 9 */
@@ -113,7 +114,7 @@ body {
 }
 
 #ContentTopIndent {
-  height: 30px;
+  height: 2.0833vw;
 }
 #ContentBottomIndent {
   height: 500px;
@@ -126,11 +127,11 @@ body {
 }
 
 footer .Content {
-  height: 50px;
+  height: 3.4722vw;
   background-color: lightgray;
 }
 
 #Content {
   background-color: #ededff;
-  margin-top: 20px;
+  margin-top: 1.3888vw;
 }
