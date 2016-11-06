@@ -4,7 +4,7 @@ body {
 }
 
 #Menu {
-  width: 500px;
+  width: 70%;
   float: left;
 }
 
@@ -16,7 +16,6 @@ body {
 
 #Menu li p {
   display: block;
-  width: 100px;
   text-align: center;
   font-size: 18px;
   margin: 0px;
@@ -25,6 +24,7 @@ body {
 
 #Menu li {
   float: left;
+  width: 20%;
 }
 #Menu li:hover {
   background-color: #6E9FFF;
@@ -34,25 +34,55 @@ body {
   font-family: Quinta;
   src: url("../BW Quinta/Fonts/bwquintapro-light.otf");
 }
+@font-face {
+  font-family: BebasNeue;
+  src: url("../Bebas Neue/Fonts/BebasNeue.otf");
+}
 .BwQuintaL {
   font-family: Quinta;
+}
+.Bebas {
+	font-family: BebasNeue;
 }
 
 #MenuDiv {
   background-color: #1E90FF;
   width: 100%;
-  height: 50px;
+  height: 40px;
+  margin-top: 75px;
 }
 
 #MenuInDiv {
   width: 70%;
-  height: 50px;
+  height: 40px;
   margin: auto;
 }
 
 #LogoText {
   width: 15%;
-  margin: 30%;
-  margin-right: 0px; margin-left: 0px;
+  height: 40px;
+  margin: 0px;
+  float: left;
+  background-color: white;
+}
+
+#LogoText p {
+  margin: 0px;
+  vertical-align: middle;
+  font-size: 42px;
+  margin-top: -2px;
+  margin-left: 3px;
+  font-style: italic;
+  color: blue;
+  /* Stretch vertically */
+    -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1,1.5); /* Firefox */
+    -ms-transform:scale(1,1.5); /* IE 9 */
+    -o-transform:scale(1,1.5); /* Opera */
+    transform:scale(1,1.5); /* W3C */
+}
+
+#LogoArt {
+  width: 15%;
   float: left;
 }
