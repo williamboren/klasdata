@@ -32,7 +32,7 @@ echo <<<_END
 							</li>
 						</a>
 						<a href="./shoppingcart.php">
-							<li>
+							<li id="active">
 								<p>Varukorg</p>
 							</li>
 						</a>

@@ -22,7 +22,7 @@ echo <<<_END
 							</li>
 						</a>
 						<a href="./webshop.php">
-							<li>
+							<li id="active">
 								<p>Webshop</p>
 							</li>
 						</a>

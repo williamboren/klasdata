@@ -27,7 +27,7 @@ echo <<<_END
 							</li>
 						</a>
 						<a href="./myprofile.php">
-							<li>
+							<li id="active">
 								<p>Min sida</p>
 							</li>
 						</a>

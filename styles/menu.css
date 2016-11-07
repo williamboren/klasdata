@@ -135,3 +135,10 @@ footer .Content {
   background-color: #ededff;
   margin-top: 1.3888vw;
 }
+
+#active {
+  /* Three alternatives, I prefer the last one. Change it if you want to */
+  /*background-color: #3679FE;*/
+  /*background-color: #0F87FF;*/
+  background-color: #127FEC;
+}
