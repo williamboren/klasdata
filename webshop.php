@@ -6,8 +6,9 @@ echo <<<_END
 		<meta charset="utf-8"/>
 		<title>Klas F Data</title>
 		<link href="styles/menu.css" type="text/css" rel="stylesheet" />
+		<script> function onload() { alert('Inte implementerad'); } </script>
 	</head>
-	<body>
+	<body onload="onload()">
 		<div id="MenuDiv">
 			<div class="SideOfMenu"></div>
 			<div id="MenuInDiv">
