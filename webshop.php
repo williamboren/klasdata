@@ -8,8 +8,9 @@ echo <<<_END
 		<link href="styles/menu.css" type="text/css" rel="stylesheet" />
 		<link href="styles/ShopSlideshow.css" type="text/css" rel="stylesheet">
 		<link href="styles/Shop.css" type="text/css" rel="stylesheet">
+		<script> function onload() { alert('Inte implementerad'); } </script>
 	</head>
-	<body>
+	<body onload="onload()">
 		<div id="MenuDiv">
 			<div class="LeftOfMenu"></div>
 			<div id="MenuInDiv">

@@ -1,0 +1,23 @@
+#header_center {
+  text-align: center;
+}
+
+#address {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-left: 5px;
+}
+
+#person {
+  display: block;
+  float: right;
+  width: 25%;
+}
+
+#devs {
+  display: block;
+  float: right;
+  margin-right: 5px;
+  text-align: center;
+}
