@@ -1,6 +1,5 @@
 <?php
 echo <<<_END
-<!DOCTYPE html>
 <html lang="sv">
 	<head>
 		<meta charset="utf-8"/>

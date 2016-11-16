@@ -1,6 +1,5 @@
 <?php
 echo <<<_END
-<!DOCTYPE html>
 <html lang="sv">
 	<head>
 		<meta charset="utf-8"/>
@@ -56,7 +55,7 @@ echo <<<_END
 		<div class="Content" id="Content">
 			<!--<div id="ContentTopIndent"></div>-->
 			<p id="ShopHeader">Webshop<img src="./img/ShoppingIcon.png"/></p>
-			
+
 			<div class="contentBorder">
 				<div class="slideshow-container">
 					<div class="slideCards fade">
@@ -84,13 +83,13 @@ echo <<<_END
 				<br>
 
 				<div style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span> 
-					<span class="dot" onclick="currentSlide(2)"></span> 
-					<span class="dot" onclick="currentSlide(3)"></span> 
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
 				</div>
 			</div>
-			
-			
+
+
 			<p id="newItems">Nytt i sortimentet</p>
 			<table>
 				<tbody>
